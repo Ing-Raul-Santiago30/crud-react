@@ -1,0 +1,57 @@
+.bg-custom {
+    background-color: #f0f8ff; /* Cambia este color según tu preferencia */
+  }
+  body {
+    background-color: #f0f0f0;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .card-body {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .input-group-text {
+    border-radius: 0.375rem;
+  }
+  
+  .input-group .form-control {
+    border-radius: 0.375rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .table thead th {
+    border-top: none;
+  }
+/* Asegúrate de incluir estas reglas de estilo para mejorar la responsividad */
+.input-group-text {
+  min-width: 120px;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .input-group {
+    flex-direction: column;
+  }
+  
+  .input-group-text {
+    width: 100%;
+    text-align: center;
+  }
+}
+  
